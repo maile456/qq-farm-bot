@@ -12,5 +12,6 @@ services:
       - ./data:/app/data 
     environment:
       - PORT=3000 
+      - TZ=Asia/Shanghai
       # 生产环境请修改为你自己的加密密钥（32字符） 
       - BOT_ENCRYPT_KEY=qq-farm-bot-default-key-32bytes! 
